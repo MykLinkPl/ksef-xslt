@@ -6,7 +6,7 @@ This repository provides an **XSLT stylesheet** for transforming **KSeF FA(3) XM
 
 ## Changelog (fork changes)
 
-### 2026-02-xx
+### 2026-02
 - Removed external Google Fonts URLs (`fonts.googleapis.com`) and switched to local system fonts (eg. Segoe UI / Arial).
   - Reason: headless Chromium/Edge PDF printing can intermittently render **blank text** if web fonts are not loaded in time.
   - Using system fonts makes PDF generation deterministic and avoids dependency on internet access, proxies, or blocked external resources.
